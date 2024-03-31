@@ -1,3 +1,4 @@
+/* This is a function which determines whether a number is a prime number or not*/
 function isPrime(num) {
     if (num < 2) {
         return false;
@@ -11,7 +12,9 @@ function isPrime(num) {
     }
     return true;
 }
-
+/* This is a function which calls the above function above and uses it to 
+determine whether the numbers in the given array are prime numbers and prints
+the prime numbers*/
 function primeNumbers(numbers = []) {
     const primeArray = [];
     for (const num of numbers) {
